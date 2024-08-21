@@ -24,3 +24,5 @@ class EmployeeService {
     return axios.delete(EMPLOYEE_API_BASE_URL + "/" + id);
   }
 }
+
+export default new EmployeeService();
