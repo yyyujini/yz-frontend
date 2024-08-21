@@ -40,5 +40,10 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^x.x.x"
+  },
+  "eslintConfig": {
+    "rules": {
+      "import/no-anonymous-default-export": "off"
+    }
   }
 }
