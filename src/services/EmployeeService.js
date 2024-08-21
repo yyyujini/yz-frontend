@@ -25,4 +25,10 @@ class EmployeeService {
   }
 }
 
-export default new EmployeeService();
+// EmployeeService.js
+class EmployeeService {
+  // 클래스 내용
+}
+
+const employeeServiceInstance = new EmployeeService();
+export default employeeServiceInstance;
